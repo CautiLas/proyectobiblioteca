@@ -25,4 +25,5 @@ CREATE TABLE prestamos (
     fecha_devolucion DATE,
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id),
     FOREIGN KEY (id_libro) REFERENCES libros(id)
-);biblioteca
+
+);
